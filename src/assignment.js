@@ -42,7 +42,7 @@ function countEvenNumbersWithin(destination) {
     let count = 0;
     let arrayOfEvenNumbers = [];
 
-    for(i = 1; i<= destination; i++){
+    for( let i = 1; i<= destination; i++){
         if(i % 2 === 0){
             count++;
             sum +=i;
@@ -51,6 +51,7 @@ function countEvenNumbersWithin(destination) {
         }
     }
 }
+
 
     return {
         // property value shorthand
